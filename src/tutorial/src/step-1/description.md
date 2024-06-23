@@ -1,36 +1,36 @@
-# Getting Started {#getting-started}
+# ရှေးဦးစွာ {#getting-started}
 
-Welcome to the Vue tutorial!
+Vue သင်ခန်းစာ ကနေ ကြိုဆိုလိုက်ပါတယ်!
 
-The goal of this tutorial is to quickly give you an experience of what it feels like to work with Vue, right in the browser. It does not aim to be comprehensive, and you don't need to understand everything before moving on. However, after you complete it, make sure to also read the <a target="_blank" href="/guide/introduction.html">Guide</a> which covers each topic in more detail.
+ဒီသင်ခန်းစာ ရဲ့ ရည်ရွယ်ချက်က အခုဒီbrowser ပေါ်မှာဘဲ Vueနဲ့ အလုပ်လုပ်တယ်ဆိုတာ ဘယ်လိုမျိုးလဲဆိုတာကို လျင်လျင်မြန်မြန် အတွေ့အကြုံရစေဖို့ ဖြစ်ပါတယ်။ ဒီမှာ ပြည့်ပြည့်စုံစုံ ဖော်ပြဖို့ မရည်ရွယ်ထားသလို ရှေ့ဆက်မသွားခင် သင်က အရာအားလုံး နားလည်ထားစရာလည်း မလိုပါဘူး။ ဘယ်လိုဘဲဖြစ်ဖြစ်၊ ဒီသင်ခန်းစာ ပြီးသွားရင်တော့၊ အကြောင်းအရာတစ်ခုစီကို ပိုမိုအသေးစိတ်သိရဖို့အတွက် <a target="_blank" href="/guide/introduction.html">လမ်းညွှန်</a> မှာသွားရောက် ဖတ်ပေးပါ။
 
-## Prerequisites {#prerequisites}
+## လိုအပ်ချက်များ {#prerequisites}
 
-The tutorial assumes basic familiarity with HTML, CSS and JavaScript. If you are totally new to front-end development, it might not be the best idea to jump right into a framework as your first step - grasp the basics then come back! Prior experience with other frameworks helps, but is not required.
+ဒီသင်ခန်းစာတွေ က HTML၊ CSS နဲ့ JavaScript စတဲ့အခြေခံရပြီးသားသူတွေအတွက် ရည်ရွယ်ပါတယ်။ တကယ်လို့ သင်က front-end တည်ဆောက်မှုပိုင်းနဲ့ပတ်သက်ပြီး လုံး၀အတွေ့အကြုံမရှိသေးတဲ့ အသစ်ဆိုရင် ဒီလို framework ကနေစပြီး မလေ့လာသင့်ပါဘူး၊ အရင်ဆုံး အခြေခံတွေကို ရအောင်လုပ်ပြီးမှ ပြန်လာခဲ့ပါ! အခြား framework အတွေ့အကြုံရှိရင်တော့ ပိုနားလည်လွယ်နိုင်ပါတယ်။ ဒါပေမယ့် အဲ့ဒါက လိုအပ်ချက် တစ်ခုတော့မဟုတ်ပါဘူး။
 
-## How to Use This Tutorial {#how-to-use-this-tutorial}
+## ဒီသင်ခန်းစာ ကိုအသုံးပြုနည်း {#how-to-use-this-tutorial}
 
-You can edit the code <span class="wide">on the right</span><span class="narrow">below</span> and see the result update instantly. Each step will introduce a core feature of Vue, and you will be expected to complete the code to get the demo working. If you get stuck, you will have a "Show me!" button that reveals the working code for you. Try not to rely on it too much - you'll learn faster by figuring things out on your own.
+သင်ဟာ <span class="wide">ညာဘက်မှာ</span> ကုဒ်ကို edit လုပ်နိုင်ပြီး အဲ့ဒါရဲ့ရလဒ်ကို ချက်ချင်းကြည့်နိုင်ပါတယ်။ အဆင့် ၁ဆင့်ချင်းစီက Vueရဲ့ အဓိက feature တွေကို မိတ်ဆက်ပေးမှာ ဖြစ်ပြီး၊ သရုပ်ပြအလုပ်လုပ်ဖို့အတွက် သင့်ဆီကနေ ကုဒ်ရေးပေးဖို့ကိုလည်း တောင်းခံသွားမှာဖြစ်ပါတယ်။ အကယ်၍ သင်စဥ်းစားမရတော့ဘူးဆိုရင် သင့်အတွက် ရေးရမယ့်ကုဒ်ကိုပြပေးမယ့် "Show me" ဆိုတဲ့ ခလုတ်တစ်ခု ရှိပါလိမ့်မည်။ သင်ကိုယ်တိုင် ကြိုးစားအဖြေရှာတာကတော့ သင့်ရဲ့လေ့လာမှုကို ပိုမိုမြန်ဆန်စေမှာပါ။
 
-If you are an experienced developer coming from Vue 2 or other frameworks, there are a few settings you can tweak to make the best use of this tutorial. If you are a beginner, it's recommended to go with the defaults.
+အကယ်၍ သင်က Vue 2 ဒါမှမဟုတ် အခြား framework အတွေ့အကြုံရှိတဲ့ developer ဆိုရင် ဒီမှာပါတဲ့ သင်ခန်းစာတွေကို ကိုယ့်ဟာကို ချိန်ညှိပြီး အကောင်းဆုံး အသုံးချနိုင်ပါတယ်။ တကယ်လို့ သင်က လုံး၀အသစ်ဆိုရင်တော့ default ထားထားတဲ့ အတိုင်းဘဲ လေ့လာဖို့ အကြံပြုပါတယ်။
 
 <details>
-<summary>Tutorial Setting Details</summary>
+<summary>သင်ခန်းစာ ဆက်တင် အသေးစိတ်</summary>
 
-- Vue offers two API styles: Options API and Composition API. This tutorial is designed to work for both - you can choose your preferred style using the **API Preference** switches at the top. <a target="_blank" href="/guide/introduction.html#api-styles">Learn more about API styles</a>.
+- Vue မှာ API စတိုင်နှစ်မျိုး ရှိပါတယ် - Options API နှင့် Composition API ဖြစ်ပါတယ်။ ဒီသင်ခန်းစာတွေမှာ နှစ်မျိုးလုံးနဲ့ အလုပ်လုပ်နိုင်အောင် ဒီဇိုင်းဆွဲထားပါတယ်။ သင်နှစ်သက်တဲ့ စတိုင်ကို အပေါ်မှာရှိတဲ့ **API Preference** ဆိုတဲ့ ခလုတ်နဲ့ ရွေးချယ်နိုင်ပါတယ်။ <a target="_blank" href="/guide/introduction.html#api-styles">API စတိုင်များအကြောင်း ပိုမိုလေ့လာရန်</a>
 
-- You can also switch between SFC-mode or HTML-mode. The former will show code examples in <a target="_blank" href="/guide/introduction.html#single-file-components">Single-File Component</a> (SFC) format, which is what most developers use when they use Vue with a build step. HTML-mode shows usage without a build step.
+- SFC-mode ဒါမှမဟုတ် HTML-mode ကိုလည်း သင့်စိတ်ကြိုက် ပြောင်းနိုင်ပါတယ်။ SFC-mode ကတော့ ကုဒ်နမူနာတွေကို <a target="_blank" href="/guide/introduction.html#single-file-components">Single-File Component</a> (SFC) format အနေနဲ့ပြပေးပါမယ်။ သူ့ကို developer အများစုက Vue ကို build လုပ်ပြီး အသုံးပြုတဲ့အခါမှာ သုံးတာပါ။ HTML-mode ကတော့ build မလုပ်ဘဲ အသုံးပြုပုံကို ပြပေးမှာပါ။
 
 <div class="html">
 
 :::tip
-If you're about to use HTML-mode without a build step in your own applications, make sure you either change imports to:
+သင့်ကိုယ်ပိုင် အပလီကေးရှင်းတွေမှာ build မလုပ်ဘဲ HTML-mode ကို အသုံးပြုတော့မယ်ဆိုရင် import တွေကိုလည်း အောက်မှာ ဖော်ပြထားသလို ပြောင်းပေးဖို့ မမေ့ပါနဲ့:
 
 ```js
 import { ... } from 'vue/dist/vue.esm-bundler.js'
 ```
 
-inside your scripts or configure your build tool to resolve `vue` accordingly. Sample config for [Vite](https://vitejs.dev/):
+build လုပ်ပြီး သုံးမယ်ဆိုရင် သင့် script တွေက `vue` ကိုနားလည်အောင် အောက်ကလိုမျိုး build tool မှာ configure လုပ်ပါ။ [Vite](https://vitejs.dev/)မှာဆိုရင်:
 
 ```js
 // vite.config.js
@@ -43,11 +43,11 @@ export default {
 }
 ```
 
-See the respective [section in Tooling guide](/guide/scaling-up/tooling.html#note-on-in-browser-template-compilation) for more information.
+နောက်ထပ်အချက်အလက်တွေအတွက် သက်ဆိုင်ရာ [ကဏ္ဍအလိုက် လမ်းညွှန်](/guide/scaling-up/tooling.html#note-on-in-browser-template-compilation) မှာ ကြည့်ပါ။
 :::
 
 </div>
 
 </details>
 
-Ready? Click "Next" to get started.
+အဆင်သင့်ဖြစ်ပြီလား? အဆင်သင့်ဖြစ်ရင် စတင်ဖို့ "Next" ကိုနှိပ်လိုက်ပါ။
